@@ -1,0 +1,52 @@
+a:hover {
+    color: var(--link-hover);
+    text-decoration: underline;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    border: 5px solid red;
+}
+
+header {
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    border: 5px solid red;
+    margin-bottom: 2rem;
+    font-size: 1.15rem;
+}
+
+h3 {
+    color: white;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.no-bullets {
+list-style-type: none;
+padding: 0;
+margin: 0;
+}
+
+main {
+    text-align: center;
+    color: white;
+    padding: 2rem;
+    border: 5px solid red;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+}   
+.feature {
+    padding: 1rem;
+    border-radius: 8px;
+    width: 200px;
+}
