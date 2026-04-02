@@ -1,10 +1,13 @@
-const input = document.getElementById('input');
-const button = document.getElementById('button');
-const title = document.getElementById('title'); 
+const input = document.getElementById('ctaInput');
+const button = document.getElementById('updateButton');
+const title = document.querySelector('.hero h3'); // targets "Join Missions Across the Galaxy"
 
 button.addEventListener('click', () => {
     const userInput = input.value;
-    title.textContent = userInput;
+
+    if (userInput.trim() !== "") {
+        title.textContent = userInput;
+        input.value = ""; // clears input after update
+    }
 });
 
-    
